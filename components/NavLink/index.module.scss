@@ -5,9 +5,9 @@
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
-	color: inherit;
 	padding: 0.5rem 1rem;
 	border-radius: 5px;
+	user-select: none;
 	transition-property: background-color, color;
 	transition-duration: 0.3s;
 	transition-timing-function: ease;

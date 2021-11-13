@@ -10,14 +10,23 @@
 }
 
 h1 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Catamaran', sans-serif;
 	color: colors.$white;
 }
 
+a {
+	color: inherit;
+}
+
 body {
-	font-family: 'Lusitana', serif;
+	font-family: 'Raleway', serif;
 	background-color: colors.$dark-tone-ink;
 	color: colors.$lost-at-sea;
+
+	::selection {
+		background: colors.$overcast;
+		color: colors.$dark-tone-ink;
+	}
 }
 
 /* Fonts */
@@ -25,7 +34,7 @@ body {
 	font-family: 'Raleway';
 	src: url('/static/font/Raleway-VariableFont_wght.ttf')
 		format('truetype-variations');
-	font-weight: 100 900;
+	font-weight: 400 900;
 	font-style: normal;
 }
 
@@ -33,20 +42,14 @@ body {
 	font-family: 'Raleway';
 	src: url('/static/font/Raleway-Italic-VariableFont_wght.ttf')
 		format('truetype-variations');
-	font-weight: 100 900;
+	font-weight: 400 900;
 	font-style: italic;
 }
 
 @font-face {
-	font-family: 'Lusitana';
-	src: url('/static/font/Lusitana-Regular.ttf') format('truetype');
-	font-weight: 400;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Lusitana';
-	src: url('/static/font/Lusitana-Bold.ttf') format('truetype');
-	font-weight: 700;
+	font-family: 'Catamaran';
+	src: url('/static/font/Catamaran-VariableFont_wght.ttf')
+		format('truetype-variations');
+	font-weight: 400 900;
 	font-style: normal;
 }

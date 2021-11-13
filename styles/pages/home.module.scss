@@ -1,0 +1,33 @@
+@use 'styles/variables/colors';
+@use 'styles/variables/gradients';
+
+.home {
+	flex: 1;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	h1 {
+		font-weight: 800;
+		font-size: 3rem;
+		background: gradients.$blue;
+
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+
+		&::selection {
+			background-clip: initial;
+			-webkit-background-clip: initial;
+			-webkit-text-fill-color: initial;
+		}
+	}
+
+	.description {
+		font-family: 'Raleway';
+		font-size: 1.3rem;
+		color: colors.$white;
+		line-height: 1.5;
+	}
+}

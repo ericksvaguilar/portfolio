@@ -1,0 +1,8 @@
+@use 'styles/variables/colors';
+
+$blue: linear-gradient(
+	90deg,
+	colors.$legacy-blue 0%,
+	colors.$overcast 50%,
+	colors.$legacy-blue 100%
+);
