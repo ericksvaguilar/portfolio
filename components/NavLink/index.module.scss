@@ -4,7 +4,6 @@
 	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
 	padding: 0.5rem 1rem;
 	border-radius: 5px;
 	user-select: none;
@@ -17,7 +16,7 @@
 	}
 
 	&:hover {
-		background-color: rgb(39, 39, 39);
+		background-color: colors.$dire-wolf;
 		color: colors.$white;
 	}
 }
