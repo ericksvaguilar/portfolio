@@ -1,0 +1,23 @@
+@use 'styles/variables/colors';
+
+.navlink {
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	color: inherit;
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	transition-property: background-color, color;
+	transition-duration: 0.3s;
+	transition-timing-function: ease;
+
+	&:first-child {
+		margin-left: -1rem;
+	}
+
+	&:hover {
+		background-color: rgb(39, 39, 39);
+		color: colors.$white;
+	}
+}

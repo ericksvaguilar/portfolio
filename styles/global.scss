@@ -1,9 +1,4 @@
-/* Variables */
-:root {
-	--dark-tone-ink: #121212;
-	--lost-at-sea: #8f9ba8;
-	--white: #fff;
-}
+@use 'styles/variables/colors';
 
 /* Reset */
 *,
@@ -16,13 +11,13 @@
 
 h1 {
 	font-family: 'Raleway', sans-serif;
-	color: var(--white);
+	color: colors.$white;
 }
 
 body {
-	font-family: 'Lusitana';
-	background-color: var(--dark-tone-ink);
-	color: var(--lost-at-sea);
+	font-family: 'Lusitana', serif;
+	background-color: colors.$dark-tone-ink;
+	color: colors.$lost-at-sea;
 }
 
 /* Fonts */
