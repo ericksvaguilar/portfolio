@@ -7,16 +7,8 @@
 	padding: 0.5rem 1rem;
 	border-radius: 5px;
 	user-select: none;
-	transition-property: background-color, color;
-	transition-duration: 0.3s;
-	transition-timing-function: ease;
 
 	&:first-child {
 		margin-left: -1rem;
-	}
-
-	&:hover {
-		background-color: colors.$dire-wolf;
-		color: colors.$white;
 	}
 }
