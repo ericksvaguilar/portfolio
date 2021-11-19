@@ -1,10 +1,9 @@
-import PageTransition from 'components/PageTransition';
 import Head from 'next/head';
 
 import styles from 'styles/pages/home.module.scss';
 
 const Home = () => (
-	<PageTransition>
+	<>
 		<Head>
 			<title>Erick Aguilar</title>
 		</Head>
@@ -17,7 +16,7 @@ const Home = () => (
 				</p>
 			</section>
 		</div>
-	</PageTransition>
+	</>
 );
 
 export default Home;

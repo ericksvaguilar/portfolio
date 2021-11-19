@@ -14,10 +14,5 @@
 	main {
 		flex: 1;
 		@include flex-column;
-
-		& > * {
-			flex: 1;
-			@include flex-column;
-		}
 	}
 }

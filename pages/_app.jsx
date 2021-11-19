@@ -1,14 +1,10 @@
 import Layout from 'components/Layout';
 
-import { AnimatePresence } from 'framer-motion';
-
 import 'styles/global.scss';
 
-const MyApp = ({ Component, pageProps, router }) => (
+const MyApp = ({ Component, pageProps }) => (
 	<Layout>
-		<AnimatePresence exitBeforeEnter>
-			<Component {...pageProps} key={router.route} />
-		</AnimatePresence>
+		<Component {...pageProps} />
 	</Layout>
 );
 
