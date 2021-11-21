@@ -11,21 +11,29 @@
 	h1 {
 		font-weight: 800;
 		font-size: 3rem;
-		background: gradients.$blue;
-
-		background-clip: text;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-
-		&::selection {
-			background-clip: initial;
-			-webkit-background-clip: initial;
-			-webkit-text-fill-color: initial;
-		}
 	}
 
 	.description {
 		font-size: 1.3rem;
-		color: colors.$white;
+	}
+
+	.linkList {
+		list-style: none;
+		margin-top: 2rem;
+		display: flex;
+		gap: 1rem;
+
+		a {
+			color: colors.$white;
+			display: inline-block;
+			text-transform: lowercase;
+			text-decoration: none;
+			padding: 0.5rem 1rem;
+			border-radius: 5px;
+			user-select: none;
+			border: 1px solid colors.$subnautical;
+			background: colors.$subnautical;
+			background: gradients.$subnautical;
+		}
 	}
 }
