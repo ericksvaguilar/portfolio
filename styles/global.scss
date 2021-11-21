@@ -22,11 +22,6 @@ body {
 	font-family: 'Raleway', serif;
 	background-color: colors.$dark-tone-ink;
 	color: colors.$lost-at-sea;
-
-	::selection {
-		background: colors.$overcast;
-		color: colors.$dark-tone-ink;
-	}
 }
 
 /* Fonts */

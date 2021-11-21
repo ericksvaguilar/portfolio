@@ -12,9 +12,7 @@ const Home = () => (
 		<div className={styles.home}>
 			<section>
 				<h1>Erick Aguilar</h1>
-				<p className={styles.description}>
-					Desenvolvedor Front-end na Docket Brasil.
-				</p>
+				<p className={styles.description}>Desenvolvedor Front-end</p>
 				<ul className={styles.linkList}>
 					<li>
 						<motion.a
