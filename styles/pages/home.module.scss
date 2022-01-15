@@ -1,0 +1,36 @@
+@use 'styles/variables/colors';
+@use 'styles/variables/gradients';
+
+.home {
+	flex: 1;
+	margin-top: 20vh;
+
+	h1 {
+		font-weight: 800;
+		font-size: 3rem;
+	}
+
+	.description {
+		font-size: 1.3rem;
+	}
+
+	.linkList {
+		list-style: none;
+		margin-top: 2rem;
+		display: flex;
+		gap: 1rem;
+
+		a {
+			color: colors.$white;
+			display: inline-block;
+			text-transform: lowercase;
+			text-decoration: none;
+			padding: 0.5rem 1rem;
+			border-radius: 5px;
+			user-select: none;
+			border: 1px solid colors.$subnautical;
+			background: colors.$subnautical;
+			background: gradients.$subnautical;
+		}
+	}
+}

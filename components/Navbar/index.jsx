@@ -1,7 +1,9 @@
-import NavLink from '../NavLink';
+import NavLink from 'components/NavLink';
+
+import styles from './index.module.scss';
 
 const Navbar = () => (
-	<nav>
+	<nav className={styles.navbar}>
 		<ul>
 			<li>
 				<NavLink href="/" name="Home" />

@@ -1,0 +1,18 @@
+@mixin flex-column() {
+	display: flex;
+	flex-direction: column;
+}
+
+.layout {
+	max-width: 700px;
+	min-height: 100vh;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+
+	@include flex-column;
+
+	main {
+		flex: 1;
+		@include flex-column;
+	}
+}

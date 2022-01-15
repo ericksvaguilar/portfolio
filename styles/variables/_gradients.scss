@@ -1,0 +1,17 @@
+@use 'styles/variables/colors';
+
+$blue: linear-gradient(
+	90deg,
+	colors.$legacy-blue 0%,
+	colors.$overcast 50%,
+	colors.$legacy-blue 100%
+);
+
+$subnautical: linear-gradient(
+	45deg,
+	rgba(0 30 83 / 5%) 0%,
+	rgba(0 30 83 / 10%) 25%,
+	rgba(0 30 83 / 20%) 50%,
+	rgba(0 30 83 / 30%) 75%,
+	rgba(0 30 83 / 40%) 100%
+);
