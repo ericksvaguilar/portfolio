@@ -7,9 +7,8 @@ const About = () => {
         <h1>Carreira. Hobbies. Paixões</h1>
         <p>
           <strong>Olá, meu nome é Erick.</strong> Iniciei no desenvolvimento web
-          em <time datetime="2021">2021</time>, porém já tinha me apaixonado por
-          esse mundo bem antes, lá em <time datetime="2019">2019</time> quando
-          tive o primeiro contato na faculdade.
+          em 2021, porém já tinha me apaixonado por esse mundo bem antes, lá em
+          2019 quando tive o primeiro contato na faculdade.
         </p>
         <p>
           Atualmente estou trabalhando na{" "}
@@ -26,8 +25,8 @@ const About = () => {
         </p>
         <p>
           Sou apaixonado por café, entusiasta em calistenia e especialista em
-          perder palhetas do violão hahah. Uma curiosidade sobre mim é que eu gosto de
-          trabalhar em pé.
+          perder palhetas do violão hahah. Uma curiosidade sobre mim é que eu
+          gosto de trabalhar em pé.
         </p>
       </section>
     </div>
