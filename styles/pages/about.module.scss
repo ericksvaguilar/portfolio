@@ -1,0 +1,19 @@
+.about {
+  margin-top: 3rem;
+
+  h1 {
+    font-size: 2rem;
+    word-spacing: 0.5rem;
+  }
+
+  .aboutSection {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    p {
+      line-height: 2rem;
+      font-size: 1.1rem;
+    }
+  }
+}
