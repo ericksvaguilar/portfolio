@@ -18,6 +18,10 @@ a {
 	color: inherit;
 }
 
+strong {
+	color: colors.$white;
+}
+
 body {
 	font-family: 'Raleway', serif;
 	background-color: colors.$dark-tone-ink;
