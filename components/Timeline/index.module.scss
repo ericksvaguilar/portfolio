@@ -1,0 +1,22 @@
+@use 'styles/variables/colors';
+
+.timeline {
+	ul {
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+
+		a {
+			color: colors.$white;
+			text-decoration: none;
+			transition: opacity 0.3s ease;
+
+			border-bottom: 1px solid colors.$white;
+
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+	}
+}

@@ -9,7 +9,12 @@
 	box-sizing: border-box;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: 'Catamaran', sans-serif;
 	color: colors.$white;
 }
@@ -26,6 +31,7 @@ body {
 	font-family: 'Raleway', serif;
 	background-color: colors.$dark-tone-ink;
 	color: colors.$lost-at-sea;
+	margin-bottom: 3rem;
 }
 
 /* Fonts */
