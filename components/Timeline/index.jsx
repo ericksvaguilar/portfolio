@@ -7,7 +7,7 @@ const Timeline = () => {
         <li>
           <h3>Desenvolvedor Front-end Júnior I</h3>
           <p>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="https://docket.com.br/" target="_blank" rel="noopener noreferrer">
               Docket Brasil
             </a>{" "}
             • Nov 2021 - Presente
@@ -16,7 +16,7 @@ const Timeline = () => {
         <li>
           <h3>Desenvolvedor Front-end Assistente</h3>
           <p>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="https://docket.com.br/" target="_blank" rel="noopener noreferrer">
               Docket Brasil
             </a>{" "}
             • Mar 2021 - Nov 2021
@@ -25,7 +25,7 @@ const Timeline = () => {
 		<li>
           <h3>Desenvolvedor Outsystems</h3>
           <p>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="https://elaw.com.br/" target="_blank" rel="noopener noreferrer">
               Elaw Tecnologia S.A.
             </a>{" "}
             • Set 2019 - Abr 2020
