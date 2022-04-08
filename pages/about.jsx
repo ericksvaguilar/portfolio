@@ -12,27 +12,27 @@ const About = () => {
 
       <section className={styles.about}>
         <section>
-          <h1>Hobbies. Paixões. Carreira.</h1>
+          <h1>hobbies. paixões. carreira.</h1>
           <p>
-            <strong>Olá, meu nome é Erick.</strong> Iniciei no desenvolvimento
+            <strong>olá, meu nome é erick.</strong> iniciei no desenvolvimento
             web em 2021, porém já tinha me apaixonado por esse mundo bem antes,
             lá em 2019 quando tive o primeiro contato na faculdade.
           </p>
           <p>
-            Atualmente estou trabalhando na Docket como{" "}
-            <strong>Desenvolvedor Front-end</strong>, mas antes disso eu já
+            atualmente estou trabalhando no aiq como{" "}
+            <strong>desenvolvedor front-end</strong>, mas antes disso eu já
             fazia alguns projetos pessoais com intuito de aprendizagem.
-            Atualmente moro em São Paulo.
+            atualmente moro em são paulo.
           </p>
           <p>
-            Sou apaixonado por café, entusiasta em calistenia e especialista em
-            perder palhetas do violão hahah. Uma curiosidade sobre mim é que eu
+            sou apaixonado por café, entusiasta em calistenia e especialista em
+            perder palhetas do violão hahah. uma curiosidade sobre mim é que eu
             gosto de trabalhar em pé.
           </p>
         </section>
 
         <section>
-          <h2>Carreira</h2>
+          <h2>carreira</h2>
 
           <Timeline />
         </section>
