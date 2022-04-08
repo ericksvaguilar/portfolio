@@ -5,7 +5,7 @@ const Timeline = () => {
     <div className={styles.timeline}>
       <ul>
         <li>
-          <h3>Desenvolvedor Front-end</h3>
+          <h3>Desenvolvedor Front-end Júnior</h3>
           <p>
             <a
               href="https://aiqfome.com/"
@@ -18,7 +18,7 @@ const Timeline = () => {
           </p>
         </li>
         <li>
-          <h3>Desenvolvedor Front-end Júnior I</h3>
+          <h3>Desenvolvedor Front-end Júnior</h3>
           <p>
             <a
               href="https://docket.com.br/"
