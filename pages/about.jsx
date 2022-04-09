@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>Sobre</title>
+        <title>erick aguilar | sobre</title>
       </Head>
 
       <section className={styles.about}>
