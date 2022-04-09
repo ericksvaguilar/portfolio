@@ -6,23 +6,19 @@ import matter from "gray-matter";
 
 import Post from "components/Post";
 
-const Blog = ({ posts }) => {
-  console.log(posts);
+const Blog = ({ posts }) => (
+  <>
+    <Head>
+      <title>erick aguilar | blog</title>
+    </Head>
 
-  return (
-    <>
-      <Head>
-        <title>erick aguilar | blog</title>
-      </Head>
-
-      <ul>
-        {posts.map((post, index) => (
-          <Post key={index} post={post} />
-        ))}
-      </ul>
-    </>
-  );
-};
+    <ul>
+      {posts.map((post, index) => (
+        <Post key={index} post={post} />
+      ))}
+    </ul>
+  </>
+);
 
 export default Blog;
 
