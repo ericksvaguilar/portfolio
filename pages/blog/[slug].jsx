@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 
 import fs from "fs";
 import path from "path";
@@ -7,6 +8,10 @@ import matter from "gray-matter";
 
 const PostPage = ({ frontmatter: { title, date }, slug, content }) => (
   <>
+    <Head>
+      <title>{slug}</title>
+    </Head>
+
     <Link href="/blog">
       <a>voltar</a>
     </Link>
