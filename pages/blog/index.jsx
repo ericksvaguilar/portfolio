@@ -6,17 +6,23 @@ import matter from "gray-matter";
 
 import Post from "components/Post";
 
+import styles from "styles/pages/blog.module.scss";
+
 const Blog = ({ posts }) => (
   <>
     <Head>
       <title>erick aguilar | blog</title>
     </Head>
 
-    <ul>
-      {posts.map((post, index) => (
-        <Post key={index} post={post} />
-      ))}
-    </ul>
+    <section className={styles.blog}>
+      <h1>dicas. tutoriais. artigos.</h1>
+
+      <ul>
+        {posts.map((post, index) => (
+          <Post key={index} post={post} />
+        ))}
+      </ul>
+    </section>
   </>
 );
 

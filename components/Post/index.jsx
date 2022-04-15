@@ -1,14 +1,24 @@
 import Link from "next/link";
 
+import { motion } from "framer-motion";
+
+import styles from "./index.module.scss";
+
 const Post = ({ post }) => (
-  <li>
-    <h3>{post.frontmatter.title}</h3>
-    <p>{post.frontmatter.date}</p>
-    <p>{post.frontmatter.excerpt}</p>
-    <Link href={`/blog/${post.slug}`}>
-      <a>ler</a>
+  <motion.li
+    whileHover={{ backgroundColor: "#ffffff0a" }}
+    className={styles.post}
+  >
+    <Link passHref href={`/blog/${post.slug}`}>
+      <a>
+        <small>
+          <time dateTime={post.frontmatter.date}>{post.frontmatter.date}</time>
+        </small>
+        <h3>{post.frontmatter.title}</h3>
+        <p>{post.frontmatter.excerpt}</p>
+      </a>
     </Link>
-  </li>
+  </motion.li>
 );
 
 export default Post;
